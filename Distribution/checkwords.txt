@@ -1,0 +1,17 @@
+## The program ignores lines with '##' in it. so use those for comments.
+## Each line must contain '##' to be ignored.
+## Place words you want to use in evals below the 'Eval Words' line. One word per line, from lowest 'Poor','terrible', etc. to highest.
+## You can put in as many as you want. The scores will be from 1 for the first entry to whatever the total number of entries is for the last.
+## Place only the word or phrase; don't put the score. 
+Eval Words
+Poor
+Mediocre
+Good
+Exceptional
+Ignore Words
+administrator
+SRA
+IST
+.
+?
+!
