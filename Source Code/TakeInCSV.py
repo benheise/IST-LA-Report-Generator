@@ -141,7 +141,9 @@ def fill_table(question_number, document, table_number, report_container):
             else:
                 total = total
         getcontext().prec = 2
+        value = int(document.tables[0].cell(1, 1).text)
         average = Decimal(total/int(document.tables[0].cell(1, 1).text))
+        print str(total) + "/" + str(value) + " = " + str(average)
         toi.cell(-1, 1).text = str(total)
         toi.cell(-1, 2).text = str(average*100) + '%'
         total = 0
